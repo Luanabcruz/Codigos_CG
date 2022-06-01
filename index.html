@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Luana Batista - CG</title>
+		<link rel="stylesheet" href="index.css" type="text/css" />
+	</head>
+	
+	<body>
+		<div class="header">
+			<img src="logo.png" class="logo"/>
+			<div class="">
+				<h2 class="header-title">
+					Computação Gráfica | Transformações afins 3D em objetos - rotação
+				</h2>
+				<h3 class="header-title">
+					Profª. Drª. Luana Batista da Cruz
+				</h3>
+				
+			</div>
+		</div>
+		<div class="container">
+			<canvas id="glcanvas" width="640" height="480"></canvas>
+			<form autocomplete="off" >
+				<div class="container-cmd">
+					<fieldset>
+						<legend>Eixo de Rotação</legend>
+					<div class="">
+						<label >X</label>
+						<input id="rotate-x" type="range" min="0" max="360" value="0" class="slider">
+					</div>
+					<div class="">
+						<label >Y</label>
+						<input id="rotate-y" type="range" min="0" max="360" value="0" class="slider">
+					</div>
+					<div class="">
+						<label >Z</label>
+						<input id="rotate-z" type="range" min="0" max="360" value="0" class="slider">
+					</div>
+				</fieldset>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>
